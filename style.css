@@ -2,6 +2,10 @@ body {
   background: #d3ebcd;
   text-align: center;
 }
+
+.mojoPic {
+  margin: 0 auto;
+}
 .rsvp {
   display: block;
   margin: 0 auto;
