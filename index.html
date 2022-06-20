@@ -6,72 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Molly and Jordan's Wedding</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Molly and Jordan</h1>
-    <p>2ND DECEMBER 2023</p>
+    <div class="menu">
+      <p>
+        <a href="#details"> Details</a>
+        -
+        <a href="#rsvp">RSVP</a>
+        -
+        <a href="#playlist">Playlist</a>
+      </p>
+    </div>
     <img src="media/mojo.jpeg" width="800px" class="mojoPic" />
-    <h2>The Wedding Day</h2>
-    <p>2nd December 2023</p>
-    <hr />
-    <h3>The ceremony</h3>
-    <p>Rock garden, Australian National Botanic Gardens</p>
-    <p>Arrive at 2:30pm</p>
-    <p>I do's at 3pm</p>
-    <p>In case of wet weather... we will let you know.</p>
 
-    <h4>Getting there</h4>
-    <p>
-      Address:
-      <a
-        href="https://g.page/AustralianNationalBotanicGardens?share"
-        target="_blank"
-        >Clunies Ross St, Acton, Ngunnawal Country</a
-      >
-    </p>
-    <p>
-      <a
-        href="https://parksaustralia.gov.au/botanic-gardens/visit/getting-here/"
-        target="_blank"
-        >Read more information on parking and how to get there.</a
-      >
-    </p>
+    <h2 id="details">Join us on our wedding day</h2>
     <hr />
-    <h3>The reception</h3>
-    <p>The Old Canberra Inn</p>
-    <p>5pm onwards</p>
+    <div class="information">
+      <h3>The ceremony</h3>
+      <p>Rock garden, Australian National Botanic Gardens</p>
+      <p>Arrive at 2:30pm</p>
+      <p>I do's at 3pm</p>
+      <p>In case of wet weather... we will let you know.</p>
+      <h4>Getting there</h4>
+      <p>
+        Address:
+        <u
+          ><a
+            href="https://g.page/AustralianNationalBotanicGardens?share"
+            target="_blank"
+            >Clunies Ross St, Acton, Ngunnawal Country</a
+          ></u
+        >
+      </p>
+      <p>
+        <u
+          ><a
+            href="https://parksaustralia.gov.au/botanic-gardens/visit/getting-here/"
+            target="_blank"
+            >Read more information on parking and how to get there.</a
+          ></u
+        >
+      </p>
+      <br />
 
-    <h4>Getting there</h4>
-    <p>
-      Address:
-      <a href="https://g.page/OldCanberraInn?share" target="_blank"
-        >195 Mouat St Lyneham, Ngunnawal Country</a
-      >
-    </p>
-    <p>
-      There is no parking avaliable so it's best to uber or park at the Hockey
-      Centre across the road.
-    </p>
+      <h3>The reception</h3>
+      <p>The Old Canberra Inn</p>
+      <p>5pm onwards</p>
+      <h4>Getting there</h4>
+      <p>
+        Address:
+        <u
+          ><a href="https://g.page/OldCanberraInn?share" target="_blank"
+            >195 Mouat St Lyneham, Ngunnawal Country</a
+          ></u
+        >
+      </p>
+      <p>
+        There is no parking avaliable so it's best to uber or park at the Hockey
+        Centre across the road.
+      </p>
+    </div>
     <hr />
+    <h2 id="rsvp">Before the big day</h2>
     <button>
       <a href="https://forms.gle/2o7dQvPgiT2L9DH16" target="_blank">RSVP</a>
     </button>
-    <p>Once you have RSVP'd, if anything changes please contact us!</p>
-
-    <p>
-      And most importantly, if you're hitting the dance floor, queue your
-      favourite song:
-    </p>
-    <iframe
-      class="spotify"
-      style="border-radius: 12px"
-      src="https://open.spotify.com/embed/playlist/0QSL8dCwfmvcXWDrpFqxdW?utm_source=generator"
-      width="640"
-      height="380"
-      frameborder="0"
-      allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-    ></iframe>
+    <p>And most importantly...</p>
+    <button>
+      <a
+        href="https://open.spotify.com/playlist/0QSL8dCwfmvcXWDrpFqxdW?si=a84cf0502a66437a&pt=50613d5736c229a2b16e49694c6b8983"
+        target="_blank"
+      >
+        ADD YOUR FAVOURITE SONG TO BOOGIE TO
+      </a>
+    </button>
+    <br />
+    <p>See you on the dance floor!</p>
+    <br />
+    <hr />
+    <div class="footer">
+      <h2 id="playlist">The Wedding Playlist</h2>
+      <iframe
+        class="spotify"
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/0QSL8dCwfmvcXWDrpFqxdW?utm_source=generator&theme=0"
+        width="100%"
+        height="380"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      ></iframe>
+    </div>
+    <hr />
+    <h4>Love from,</h4>
+    <p>Molly and Jordan</p>
+    <br />
   </body>
   <script src="script.js"></script>
 </html>
